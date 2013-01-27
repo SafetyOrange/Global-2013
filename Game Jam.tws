@@ -180,8 +180,8 @@ g12
 I00
 sg13
 (lp65
-F417.16666666666691
-aF394.16666666666657
+F472.16666666666691
+aF402.49999999999994
 asg15
 (itiddlywiki
 Tiddler
@@ -1787,11 +1787,11 @@ VCoinflip
 p548
 sbsa(dp549
 g12
-I00
+I01
 sg13
 (lp550
-F606.66666666666663
-aF576.66666666666652
+F611.66666666666663
+aF595.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1799,7 +1799,7 @@ p551
 (dp552
 S'text'
 p553
-VYou walk past the dog.
+V<<if $luck gt .2>>\u000a<<display Stats>>\u000a\u000aThe dog stares at you blankly with a gigantic doggy smile plastered on his face. You should get a dog.\u000a\u000a<<else>>\u000a<<silently>>\u000a<<set $health = ($health - 10)>>\u000a<<endsilently>> \u000a<<display Stats>>\u000a\u000aYou walk past the dog. Its barks are low and powerful. You can feel them in your chest. It drools a little as it barks. Why is this dog so aggressive? Is it a fighting dog? Should you call someone?\u000a\u000aYour thoughts come to an apbrupt halt as yet another overpowering bark surprised you. Your heart flutters, and it puts a little spring in your step.\u000a\u000aHopefully no one noticed you power-walk away\u000a\u000a<<endif>>
 p554
 sS'tags'
 p555
@@ -1832,15 +1832,15 @@ g12
 I00
 sg13
 (lp566
-F601.66666666666674
-aF286.66666666666657
+F646.66666666666663
+aF276.66666666666652
 asg15
 (itiddlywiki
 Tiddler
 p567
 (dp568
 g553
-VYou are hit by a car
+V<<display Stats>>\u000a\u000aYou are hit by a car
 p569
 sg555
 (lp570
