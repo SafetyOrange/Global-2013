@@ -177,7 +177,7 @@ VDon't enter the City
 p63
 sbsa(dp64
 g12
-I00
+I01
 sg13
 (lp65
 F417.16666666666691
@@ -188,7 +188,7 @@ Tiddler
 p66
 (dp67
 g18
-V<<display Stats>>\u000a\u000a\u000aYou draw closer to the city\u000a\u000a[[Enter the City]]\u000a[[Don't enter the City]]
+V<<display Stats>>\u000a\u000a\u000aYou reach the end of your street. The house on the corner with the unkept lawn marks the intersection with the main road.\u000a\u000aOutside, there is a dog barking at you. It seems to be on a leash securely connected to a post. You're probably fine, but the dog is barking rather loudly.\u000a\u000a[[Walk past the dog]]\u000a[[Walk across the street hurridly]]
 p68
 sg20
 (lp69
@@ -225,7 +225,7 @@ Tiddler
 p77
 (dp78
 g18
-V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<set $luck = Math.random()>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
+V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<set $luck = Math.random()>>\u000a<<set $rain = 1>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p79
 sg20
 (lp80
@@ -816,14 +816,14 @@ I00
 sg13
 (lp255
 F274.16666666666657
-aF530.83333333333314
+aF537.49999999999977
 asg15
 (itiddlywiki
 Tiddler
 p256
 (dp257
 g18
-V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a<<if $luck gt .20>>\u000a\u000aYou are greeted by the warmth of the sun and a refreshing gust of spring air.\u000a\u000a<<else>>\u000a\u000aIt's raining.\u000a\u000a<<endif>>\u000a\u000a\u000a[[Go left]]\u000a[[Go right]]
+V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a<<if $luck gt .20>>\u000a\u000aYou are greeted by the warmth of the sun and a refreshing gust of spring air. \u000a\u000a<<else>>\u000a<<silently>>\u000a<<set $rain = 2>>\u000a<<endsilently>>\u000a\u000aIt's raining. You love the scent of rain. You always have. These days rain serves its purpose through a window from the comfort of your living room. As lovely as it is, wet asphault is a quick trip to the hostpital. Plus, medicine won't buy itself.\u000a\u000a<<endif>>\u000a\u000a\u000a[[Go left]]\u000a[[Go right]]
 p258
 sg20
 (lp259
