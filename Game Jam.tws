@@ -5,7 +5,7 @@ V/Users/Anthony/Desktop/Trail
 p2
 sS'saveDestination'
 p3
-V/Users/Anthony/Parsons/Git/Global-2013/Game Jam.tws
+S'C:\\Users\\AlgooLenovo\\Documents\\GitHub\\Global-2013\\Game Jam.tws'
 p4
 sS'target'
 p5
@@ -1262,7 +1262,7 @@ VCross the street
 p388
 sbsa(dp389
 g12
-I00
+I01
 sg13
 (lp390
 F268.33333333333348
@@ -1273,7 +1273,7 @@ Tiddler
 p391
 (dp392
 g18
-V<<display Stats>>\u000a\u000a\u000aShit is fast
+V<<display Stats>>\u000a\u000a\u000aShit is fastest
 p393
 sg20
 (lp394
