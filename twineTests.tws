@@ -1,185 +1,0 @@
-(dp0
-S'buildDestination'
-p1
-VC:\u005cUsers\u005cWidget\u005cTwineTests.html
-p2
-sS'saveDestination'
-p3
-S'C:\\Users\\Widget\\twineTests.tws'
-p4
-sS'target'
-p5
-S'sugarcane'
-p6
-sS'storyPanel'
-p7
-(dp8
-S'widgets'
-p9
-(lp10
-(dp11
-S'selected'
-p12
-I00
-sS'pos'
-p13
-(lp14
-F10.0
-aF10.0
-asS'passage'
-p15
-(itiddlywiki
-Tiddler
-p16
-(dp17
-S'text'
-p18
-V\u000a<<set $health = 100>>\u000a\u000a\u000a\u000a<<silently>>\u000a<<endsilently>>\u000a\u000aHELLO CRUELEST WORLD\u000aYOUR HEALTH IS <<print $health>>\u000a\u000a[[Stab Yourself]]\u000a\u000a<<display "heartbeat">>
-p19
-sS'tags'
-p20
-(lp21
-sS'created'
-p22
-ctime
-struct_time
-p23
-((I2013
-I1
-I26
-I20
-I15
-I52
-I5
-I26
-I0
-tp24
-(dp25
-tp26
-Rp27
-sS'modified'
-p28
-g27
-sS'title'
-p29
-VStart
-p30
-sbsa(dp31
-g12
-I00
-sg13
-(lp32
-F290.0
-aF290.0
-asg15
-(itiddlywiki
-Tiddler
-p33
-(dp34
-g18
-V<<if ($health lt 10) and ($health gte 1)>>\u000a1-9\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/10Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a\u000a<<if ($health lt 20) and ($health gte 10)>>\u000a10-19\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/20Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a\u000a<<if ($health lt 30) and ($health gte 20)>>\u000a20-29\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/30Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a\u000a<<if ($health lt 40) and ($health gte 30)>>\u000a30-39\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/40Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a\u000a<<if ($health lt 50) and ($health gte 40)>>\u000a40-49\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/50Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a\u000a<<if ($health lt 60) and ($health gte 50)>>\u000a50-59\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/60Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a\u000a<<if ($health lt 70) and ($health gte 60)>>\u000a60-69\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/70Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a\u000a<<if ($health lt 80) and ($health gte 70)>>\u000a70-79\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/80Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a\u000a<<if ($health lt 90) and ($health gte 80)>>\u000a80-89\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/90Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a\u000a<<if $health gte 90>>\u000a90+\u000a<html>\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/100Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a\u000a<<if $health lt 1>>\u000a<html>\u000aYOU ARE DEAD\u000a<!--[if IE]><!-->\u000aSound enabled.\u000a<!--<![endif]-->\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/flatline.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> 
-p35
-sg20
-(lp36
-Vheartbeat
-p37
-asg22
-g23
-((I2013
-I1
-I26
-I20
-I16
-I0
-I5
-I26
-I0
-tp38
-(dp39
-tp40
-Rp41
-sg28
-g41
-sg29
-Vheartbeat
-p42
-sbsa(dp43
-g12
-I00
-sg13
-(lp44
-I570
-aI150
-asg15
-(itiddlywiki
-Tiddler
-p45
-(dp46
-g18
-V prompt("Enter Health", "")\u000a
-p47
-sg20
-(lp48
-VscriptNOPE
-p49
-asg22
-g23
-((I2013
-I1
-I26
-I20
-I55
-I6
-I5
-I26
-I0
-tp50
-(dp51
-tp52
-Rp53
-sg28
-g53
-sg29
-VScript huh
-p54
-sbsa(dp55
-g12
-I00
-sg13
-(lp56
-I430
-aI10
-asg15
-(itiddlywiki
-Tiddler
-p57
-(dp58
-g18
-V\u000a<<set $health = $health - 5>>\u000a\u000aYOU STABULATE YOURSELF\u000aIDIOT\u000aYOUR HEALTH IS <<print $health >>\u000a\u000a\u000a[[Stab Yourself]]\u000a\u000a<<display "heartbeat">>
-p59
-sg20
-(lp60
-sg22
-g23
-((I2013
-I1
-I26
-I22
-I17
-I54
-I5
-I26
-I0
-tp61
-(dp62
-tp63
-Rp64
-sg28
-g64
-sg29
-VStab Yourself
-p65
-sbsasS'scale'
-p66
-F1.0
-ss.
