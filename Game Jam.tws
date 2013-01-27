@@ -823,7 +823,7 @@ Tiddler
 p256
 (dp257
 g18
-V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a[[Go left]]\u000a[[Go right]]
+V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a<<if $luck gt .20>>\u000a\u000aYou are greeted by the warmth of the sun and a refreshing gust of spring air.\u000a\u000a<<else>>\u000a\u000aIt's raining.\u000a\u000a\u000a[[Go left]]\u000a[[Go right]]
 p258
 sg20
 (lp259
