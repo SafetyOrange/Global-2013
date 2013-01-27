@@ -225,7 +225,7 @@ Tiddler
 p77
 (dp78
 g18
-V<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
+V<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a\u000a<<display Coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p79
 sg20
 (lp80
@@ -977,7 +977,7 @@ Tiddler
 p303
 (dp304
 g18
-V<<display Stats>>\u000alibaray relax (+10 health, -time)\u000a\u000a\u000a[[Move along]]
+V<<set $health = ($health + 10)>>\u000a<<set $time = ($time - 5)>>\u000a<<display Stats>>\u000a\u000aYou spend some quiet time with your favorite books, forgetting about your troubles for a moment. You gain 10 Health and spend 5 Time.\u000a\u000a[[Move along]]
 p305
 sg20
 (lp306
@@ -1188,7 +1188,7 @@ VTake the main drag
 p366
 sbsa(dp367
 g12
-I01
+I00
 sg13
 (lp368
 F2101.6666666666665
@@ -1706,7 +1706,7 @@ VTake the bus
 p520
 sbsa(dp521
 g12
-I00
+I01
 sg13
 (lp522
 F23.333333333333329
@@ -1718,7 +1718,7 @@ p523
 (dp524
 S'text'
 p525
-V<<set $health = ($health - 1)>>\u000a<<set $time = ($time - 1)>>\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.
+V<<silently>>\u000a<<set $health = ($health - 1)>>\u000a<<set $time = ($time - 1)>>\u000a<<endsilently>>\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.
 p526
 sS'tags'
 p527
@@ -1748,7 +1748,44 @@ sS'title'
 p536
 VStats
 p537
+sbsa(dp538
+g12
+I00
+sg13
+(lp539
+F4.9999999999999991
+aF249.99999999999997
+asg15
+(itiddlywiki
+Tiddler
+p540
+(dp541
+g525
+V<<set $coinflip = Math.round(Math.random() * 2)>>\u000a\u000a<<print $coinflip>>
+p542
+sg527
+(lp543
+sg530
+g23
+((I2013
+I1
+I27
+I12
+I35
+I25
+I6
+I27
+I0
+tp544
+(dp545
+tp546
+Rp547
+sg535
+g547
+sg536
+VCoinflip
+p548
 sbsasS'scale'
-p538
+p549
 F0.60000000000000009
 ss.
