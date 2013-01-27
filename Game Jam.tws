@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cAlgooLenovo\u005cDesktop\u005ctest.html
+V/Users/Anthony/Desktop/Trail
 p2
 sS'saveDestination'
 p3
@@ -217,15 +217,15 @@ g12
 I00
 sg13
 (lp76
-F86.500000000000156
-aF717.83333333333314
+F84.833333333333485
+aF716.16666666666652
 asg15
 (itiddlywiki
 Tiddler
 p77
 (dp78
 g18
-V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
+V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<set $luck = Math.random()>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p79
 sg20
 (lp80
@@ -812,7 +812,7 @@ VTake the side street
 p253
 sbsa(dp254
 g12
-I00
+I01
 sg13
 (lp255
 F274.16666666666657
@@ -823,7 +823,7 @@ Tiddler
 p256
 (dp257
 g18
-V<<display Stats>>\u000a\u000aYou went out the front\u000a\u000a[[Go left]]\u000a[[Go right]]
+V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a[[Go left]]\u000a[[Go right]]
 p258
 sg20
 (lp259
