@@ -225,7 +225,7 @@ Tiddler
 p77
 (dp78
 g18
-V<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a\u000a<<display Coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
+V<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a\u000a<<display Coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p79
 sg20
 (lp80
@@ -823,7 +823,7 @@ Tiddler
 p256
 (dp257
 g18
-V<<display Stats>>\u000a\u000aYou went out the front. \u000a\u000a[[Go left]]\u000a[[Go right]]
+V<<display Stats>>\u000a\u000aYou went out the front door. You are pleasantly greeted with warm, fresh air.\u000a\u000a[[Go left]]\u000a[[Go right]]
 p258
 sg20
 (lp259
