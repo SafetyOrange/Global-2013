@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cAlgooLenovo\u005ctest2.html
+V/Users/Anthony/Desktop/OldMon Trail
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cAlgooLenovo\u005cDesktop\u005cGame Jam.tws
+S'/Users/Anthony/Parsons/Git/Global-2013/Game Jam.tws'
 p4
 sS'target'
 p5
@@ -20,12 +20,12 @@ p9
 (dp11
 S'selected'
 p12
-I01
+I00
 sS'pos'
 p13
 (lp14
-I19
-aI9
+F140.6666666666666
+aF603.99999999999977
 asS'passage'
 p15
 (itiddlywiki
@@ -34,7 +34,7 @@ p16
 (dp17
 S'text'
 p18
-VYou are an old man. Doo dee doo.\u000a\u000a\u000a[[Go to store?]]\u000a\u000a<<print Math.random()>>
+VYou are an old man. You have run out of medicine for your condition. You must go to the store and aquire more medicine.\u000a\u000aFor your condition.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p19
 sS'tags'
 p20
@@ -62,62 +62,25 @@ p28
 g27
 sS'title'
 p29
-VStart
+VGood Morning
 p30
 sbsa(dp31
 g12
 I00
 sg13
 (lp32
-I242
-aI219
+I439
+aI9
 asg15
 (itiddlywiki
 Tiddler
 p33
 (dp34
 g18
-V
+VYou have goned to store.\u000a\u000a\u000a[img[http://wikitext.tiddlyspace.com/fractalveg.jpg]]\u000a\u000a\u000a
 p35
 sg20
 (lp36
-sg22
-g23
-((I2013
-I1
-I26
-I18
-I31
-I47
-I5
-I26
-I0
-tp37
-(dp38
-tp39
-Rp40
-sg28
-g40
-sg29
-VGo to Store?
-p41
-sbsa(dp42
-g12
-I00
-sg13
-(lp43
-I439
-aI9
-asg15
-(itiddlywiki
-Tiddler
-p44
-(dp45
-g18
-VYou have goned to store.\u000a\u000a\u000a[img[http://wikitext.tiddlyspace.com/fractalveg.jpg]]\u000a\u000a\u000a
-p46
-sg20
-(lp47
 sg22
 g23
 ((I2013
@@ -129,16 +92,94 @@ I38
 I5
 I26
 I0
-tp48
-(dp49
-tp50
-Rp51
+tp37
+(dp38
+tp39
+Rp40
 sg28
-g51
+g40
 sg29
 VGo to store?
-p52
-sbsasS'scale'
-p53
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+F140.00000000000011
+aF465.83333333333337
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+S'text'
+p46
+S''
+p47
+sS'tags'
+p48
+(lp49
+sS'created'
+p50
+g23
+((I2013
 I1
+I26
+I20
+I3
+I39
+I5
+I26
+I0
+tp51
+(dp52
+tp53
+Rp54
+sS'modified'
+p55
+g54
+sS'title'
+p56
+VGo out the front?
+p57
+sbsa(dp58
+g12
+I00
+sg13
+(lp59
+F140.00000000000006
+aF736.66666666666686
+asg15
+(itiddlywiki
+Tiddler
+p60
+(dp61
+g46
+g47
+sg48
+(lp62
+sg50
+g23
+((I2013
+I1
+I26
+I20
+I3
+I53
+I5
+I26
+I0
+tp63
+(dp64
+tp65
+Rp66
+sg55
+g66
+sg56
+VGo out the back?
+p67
+sbsasS'scale'
+p68
+F0.60000000000000009
 ss.
