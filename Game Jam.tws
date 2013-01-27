@@ -197,7 +197,7 @@ Tiddler
 p73
 (dp74
 g47
-VYou are at the park entrance\u000a\u000a\u000aTake the walking path\u000aTake the lake route\u000a[[Take the road less traveled]]
+VYou are at the park entrance\u000a\u000a\u000a[[Take the walking path]]\u000a[[Take the lake route]]\u000a[[Take the road less traveled]]
 p75
 sg49
 (lp76
@@ -712,8 +712,8 @@ g12
 I00
 sg13
 (lp236
-F741.4872822193895
-aF1548.2732349905887
+F776.48728221938939
+aF1533.2732349905882
 asg15
 (itiddlywiki
 Tiddler
@@ -820,7 +820,7 @@ VEnter the City
 p267
 sbsa(dp268
 g12
-I01
+I00
 sg13
 (lp269
 F1104.9999999999998
@@ -855,7 +855,155 @@ g277
 sg57
 VGo towards buildings
 p278
+sbsa(dp279
+g12
+I00
+sg13
+(lp280
+F938.33333333333348
+aF2754.9999999999995
+asg15
+(itiddlywiki
+Tiddler
+p281
+(dp282
+g47
+VYou find a lake. Back in your hayday, you could probably go for a run along its edge\u000a\u000aBut you can't do that now. You're not even sure if you could row across if you had a boat\u000a\u000a\u000a[[Walk around to the main path]]\u000aSteal Mavis' boat
+p283
+sg49
+(lp284
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I46
+I41
+I5
+I26
+I0
+tp285
+(dp286
+tp287
+Rp288
+sg56
+g288
+sg57
+VTake the lake route
+p289
+sbsa(dp290
+g12
+I00
+sg13
+(lp291
+F1523.3333333333333
+aF2329.9999999999959
+asg15
+(itiddlywiki
+Tiddler
+p292
+(dp293
+g47
+VA busy day at the park. Irreverance surrounds you.\u000a\u000a\u000a[[Go North]]\u000a[[Sneak out the back towards the racially diverse neighborhood]]
+p294
+sg49
+(lp295
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I49
+I0
+I5
+I26
+I0
+tp296
+(dp297
+tp298
+Rp299
+sg56
+g299
+sg57
+VWalk around to the main path
+p300
+sbsa(dp301
+g12
+I00
+sg13
+(lp302
+F1815.0
+aF2823.3333333333308
+asg15
+(itiddlywiki
+Tiddler
+p303
+(dp304
+g47
+VIt's scary. Also you find a helicopter pad.
+p305
+sg49
+(lp306
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I50
+I48
+I5
+I26
+I0
+tp307
+(dp308
+tp309
+Rp310
+sg56
+g310
+sg57
+VSneak out the back towards the racially diverse neighborhood
+p311
+sbsa(dp312
+g12
+I00
+sg13
+(lp313
+F1188.3333333333333
+aF5509.9999999999991
+asg15
+(itiddlywiki
+Tiddler
+p314
+(dp315
+g47
+S''
+p316
+sg49
+(lp317
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I53
+I16
+I5
+I26
+I0
+tp318
+(dp319
+tp320
+Rp321
+sg56
+g321
+sg57
+VTake the walking path
+p322
 sbsasS'scale'
-p279
+p323
 F0.60000000000000009
 ss.
