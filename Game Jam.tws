@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cAlgooLenovo\u005cDesktop\u005ctest.html
+V/Users/Anthony/Desktop/Trail
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\AlgooLenovo\\Documents\\GitHub\\Global-2013\\Game Jam.tws'
+S'/Users/Anthony/Parsons/Git/Global-2013/Game Jam.tws'
 p4
 sS'target'
 p5
@@ -217,8 +217,8 @@ g12
 I00
 sg13
 (lp76
-F86.500000000000156
-aF717.83333333333314
+F81.500000000000142
+aF691.16666666666652
 asg15
 (itiddlywiki
 Tiddler
@@ -823,7 +823,7 @@ Tiddler
 p256
 (dp257
 g18
-V<<display Stats>>\u000a\u000aYou went out the front\u000a\u000a[[Go left]]\u000a[[Go right]]
+V<<display Stats>>\u000a\u000aYou went out the front. \u000a\u000a[[Go left]]\u000a[[Go right]]
 p258
 sg20
 (lp259
@@ -1706,7 +1706,7 @@ VTake the bus
 p520
 sbsa(dp521
 g12
-I01
+I00
 sg13
 (lp522
 F23.333333333333329
@@ -1785,7 +1785,49 @@ g547
 sg536
 VCoinflip
 p548
+sbsa(dp549
+g12
+I00
+sg13
+(lp550
+F1741.6666666666677
+aF343.33333333333314
+asg15
+(itiddlywiki
+Tiddler
+p551
+(dp552
+S'text'
+p553
+S''
+p554
+sS'tags'
+p555
+(lp556
+sS'created'
+p557
+g23
+((I2013
+I1
+I27
+I13
+I2
+I41
+I6
+I27
+I0
+tp558
+(dp559
+tp560
+Rp561
+sS'modified'
+p562
+g561
+sS'title'
+p563
+VTake the longer route 
+p564
 sbsasS'scale'
-p549
+p565
 F0.60000000000000009
 ss.
