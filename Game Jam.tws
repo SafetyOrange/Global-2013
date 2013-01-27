@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-V/Users/Anthony/Desktop/Trail
+VC:\u005cUsers\u005cAlgooLenovo\u005cDesktop\u005ctest.html
 p2
 sS'saveDestination'
 p3
-S'/Users/Anthony/Parsons/Git/Global-2013/Game Jam.tws'
+V/Users/Anthony/Parsons/Git/Global-2013/Game Jam.tws
 p4
 sS'target'
 p5
@@ -217,15 +217,15 @@ g12
 I00
 sg13
 (lp76
-F81.500000000000142
-aF691.16666666666652
+F86.500000000000156
+aF717.83333333333314
 asg15
 (itiddlywiki
 Tiddler
 p77
 (dp78
 g18
-V<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a\u000a<<display Coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
+V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p79
 sg20
 (lp80
@@ -823,7 +823,7 @@ Tiddler
 p256
 (dp257
 g18
-V<<display Stats>>\u000a\u000aYou went out the front door. You are pleasantly greeted with warm, fresh air.\u000a\u000a[[Go left]]\u000a[[Go right]]
+V<<display Stats>>\u000a\u000aYou went out the front\u000a\u000a[[Go left]]\u000a[[Go right]]
 p258
 sg20
 (lp259
@@ -1761,7 +1761,7 @@ Tiddler
 p540
 (dp541
 g525
-V<<set $coinflip = Math.round(Math.random() * 2)>>\u000a\u000a<<print $coinflip>>
+V<<silently>>\u000a<<if ((Math.random()*2) gt 1)>>\u000a<<set $coinflip = 2>>\u000a<<else>>\u000a<<set $coinflip = 1>>\u000a<<endif>>\u000a<<endsilently>>
 p542
 sg527
 (lp543
@@ -1785,49 +1785,7 @@ g547
 sg536
 VCoinflip
 p548
-sbsa(dp549
-g12
-I00
-sg13
-(lp550
-F1741.6666666666677
-aF343.33333333333314
-asg15
-(itiddlywiki
-Tiddler
-p551
-(dp552
-S'text'
-p553
-S''
-p554
-sS'tags'
-p555
-(lp556
-sS'created'
-p557
-g23
-((I2013
-I1
-I27
-I13
-I2
-I41
-I6
-I27
-I0
-tp558
-(dp559
-tp560
-Rp561
-sS'modified'
-p562
-g561
-sS'title'
-p563
-VTake the longer route 
-p564
 sbsasS'scale'
-p565
+p549
 F0.60000000000000009
 ss.
