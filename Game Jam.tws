@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-V/Users/Anthony/Desktop/test
+V/Users/Anthony/Desktop/Trail
 p2
 sS'saveDestination'
 p3
@@ -20,7 +20,7 @@ p9
 (dp11
 S'selected'
 p12
-I00
+I01
 sS'pos'
 p13
 (lp14
@@ -64,7 +64,7 @@ p29
 g28
 sS'title'
 p30
-VGood Morning
+VStart
 p31
 sbsa(dp32
 g12
@@ -971,8 +971,8 @@ g12
 I00
 sg13
 (lp313
-F1188.3333333333333
-aF5509.9999999999991
+F718.33333333333326
+aF2424.9999999999923
 asg15
 (itiddlywiki
 Tiddler
