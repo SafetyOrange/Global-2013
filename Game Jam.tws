@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-V/Users/Anthony/Desktop/Trail
+V/Users/astott/test
 p2
 sS'saveDestination'
 p3
-V/Users/Anthony/Parsons/Git/Global-2013/Game Jam.tws
+V/Users/astott/Global-2013/Game Jam.tws
 p4
 sS'target'
 p5
@@ -180,15 +180,15 @@ g12
 I00
 sg13
 (lp65
-F472.16666666666691
-aF402.49999999999994
+F417.16666666666691
+aF394.16666666666657
 asg15
 (itiddlywiki
 Tiddler
 p66
 (dp67
 g18
-V<<display Stats>>\u000a\u000a\u000aYou reach the end of your street. The house on the corner with the unkept lawn marks the intersection with the main road.\u000a\u000aOutside, there is a dog barking at you. It seems to be on a leash securely connected to a post. You're probably fine, but the dog is barking rather loudly.\u000a\u000a[[Walk past the dog]]\u000a[[Walk across the street hurridly]]
+V<<display Stats>>\u000a\u000a\u000aYou draw closer to the city\u000a\u000a[[Enter the City]]\u000a[[Don't enter the City]]
 p68
 sg20
 (lp69
@@ -217,15 +217,15 @@ g12
 I00
 sg13
 (lp76
-F84.833333333333485
-aF716.16666666666652
+F86.500000000000156
+aF717.83333333333314
 asg15
 (itiddlywiki
 Tiddler
 p77
 (dp78
 g18
-V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<set $luck = Math.random()>>\u000a<<set $rain = 1>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
+V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<endsilently>>\u000a<<display Coinflip>>\u000a\u000a<<print $coinflip>>\u000a\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will succumb to your heart condition. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see those cycling soliciters coming your way\u000a\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]\u000a\u000a<<print Math.random()>>
 p79
 sg20
 (lp80
@@ -712,127 +712,12 @@ Tiddler
 p223
 (dp224
 g18
-V<<display Stats>>\u000aDown the road a litle ways, you can see the pharmacy is close. It's across the street though.\u000a\u000aThis street is always a little worrisome though. You wonder if they'll ever put a stop sign there.\u000a\u000aYou could always take the longer way around.\u000a\u000a[[Cross the street here]]\u000a[[Take the longer route ]]
+V<<display Stats>>\u000aDown the road a litle ways, you can see the pharmacy is close. It's across the street though.\u000a\u000aThis street is always a little worrisome though. You wonder if they'll ever put a stop sign there.\u000a\u000aYou could always take the longer way around.\u000a\u000a[[Cross the street here]]\u000a[[Take the longer route]]
 p225
 sg20
 (lp226
-sg22
-g23
-((I2013
-I1
-I27
-I1
-I31
-I8
-I6
-I27
-I0
-tp227
-(dp228
-tp229
-Rp230
-sg28
-g230
-sg29
-VMove along
-p231
-sbsa(dp232
-g12
-I00
-sg13
-(lp233
-F772.50000000000057
-aF744.50000000000011
-asg15
-(itiddlywiki
-Tiddler
-p234
-(dp235
-g18
-V<<display Stats>>\u000a\u000a\u000aYou straight cut though the forest. Savage.\u000a\u000a\u000aFuck dude, there's a bear.\u000a\u000a\u000a[[Juke left]]\u000a[[Juke right]]\u000a[[Don't move]]\u000a[[Roar]]
-p236
-sg20
-(lp237
-sg22
-g23
-((I2013
-I1
-I27
-I1
-I31
-I8
-I6
-I27
-I0
-tp238
-(dp239
-tp240
-Rp241
-sg28
-g241
-sg29
-VTake the road less traveled
-p242
-sbsa(dp243
-g12
-I00
-sg13
-(lp244
-F1304.9999999999993
-aF11.666666666666895
-asg15
-(itiddlywiki
-Tiddler
-p245
-(dp246
-g18
-V<<display Stats>>\u000aYou walk down the nice quiet little street. \u000a\u000aYou see a somewhat scruffy young man. Bit rough around the edges, but he seems nice enough.\u000a\u000a"Hey man, you look a little stressed. I've got something that'll help you chill a little."\u000a\u000aChilling a little sounds great. (-$10, +15 Health)\u000a\u000a[[Continue on]]
-p247
-sg20
-(lp248
-sg22
-g23
-((I2013
-I1
-I27
-I1
-I31
-I8
-I6
-I27
-I0
-tp249
-(dp250
-tp251
-Rp252
-sg28
-g252
-sg29
-VTake the side street
-p253
-sbsa(dp254
-g12
-I00
-sg13
-(lp255
-F274.16666666666657
-aF537.49999999999977
-asg15
-(itiddlywiki
-Tiddler
-p256
-(dp257
-g18
-V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a<<if $luck gt .20>>\u000a\u000aYou are greeted by the warmth of the sun and a refreshing gust of spring air. \u000a\u000a<<else>>\u000a<<silently>>\u000a<<set $rain = 2>>\u000a<<endsilently>>\u000a\u000aIt's raining. You love the scent of rain. You always have. These days rain serves its purpose through a window from the comfort of your living room. As lovely as it is, wet asphault is a quick trip to the hostpital. Plus, medicine won't buy itself.\u000a\u000a<<endif>>\u000a\u000a\u000a[[Go left]]\u000a[[Go right]]
-p258
-sg20
-(lp259
-Vexit
-p260
-aVhouse
-p261
-aVfront
-p262
+Valong
+p227
 asg22
 g23
 ((I2013
@@ -844,32 +729,149 @@ I8
 I6
 I27
 I0
-tp263
-(dp264
-tp265
-Rp266
+tp228
+(dp229
+tp230
+Rp231
 sg28
-g266
+g231
 sg29
-VGo out the front?
-p267
-sbsa(dp268
+VMove along
+p232
+sbsa(dp233
 g12
 I00
 sg13
-(lp269
+(lp234
+F772.50000000000057
+aF744.50000000000011
+asg15
+(itiddlywiki
+Tiddler
+p235
+(dp236
+g18
+V<<display Stats>>\u000a\u000a\u000aYou straight cut though the forest. Savage.\u000a\u000a\u000aFuck dude, there's a bear.\u000a\u000a\u000a[[Juke left]]\u000a[[Juke right]]\u000a[[Don't move]]\u000a[[Roar]]
+p237
+sg20
+(lp238
+sg22
+g23
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp239
+(dp240
+tp241
+Rp242
+sg28
+g242
+sg29
+VTake the road less traveled
+p243
+sbsa(dp244
+g12
+I00
+sg13
+(lp245
+F1304.9999999999993
+aF11.666666666666895
+asg15
+(itiddlywiki
+Tiddler
+p246
+(dp247
+g18
+V<<display Stats>>\u000aYou walk down the nice quiet little street. \u000a\u000aYou see a somewhat scruffy young man. Bit rough around the edges, but he seems nice enough.\u000a\u000a"Hey man, you look a little stressed. I've got something that'll help you chill a little."\u000a\u000aChilling a little sounds great. (-$10, +15 Health)\u000a\u000a[[Continue on]]
+p248
+sg20
+(lp249
+sg22
+g23
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp250
+(dp251
+tp252
+Rp253
+sg28
+g253
+sg29
+VTake the side street
+p254
+sbsa(dp255
+g12
+I00
+sg13
+(lp256
+F274.16666666666657
+aF530.83333333333314
+asg15
+(itiddlywiki
+Tiddler
+p257
+(dp258
+g18
+V<<display Stats>>\u000a\u000aYou went out the front\u000a\u000a[[Go left]]\u000a[[Go right]]
+p259
+sg20
+(lp260
+Vexit
+p261
+aVhouse
+p262
+aVfront
+p263
+asg22
+g23
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp264
+(dp265
+tp266
+Rp267
+sg28
+g267
+sg29
+VGo out the front?
+p268
+sbsa(dp269
+g12
+I00
+sg13
+(lp270
 F523.5
 aF855.5
 asg15
 (itiddlywiki
 Tiddler
-p270
-(dp271
+p271
+(dp272
 g18
 V<<display Stats>>\u000a\u000aYou cut through you neighbor's yard without incident. All the better too.\u000a\u000aYou have entered the park.\u000a\u000a\u000a[[Take the walking path]]\u000a[[Take the lake route]]\u000a[[Take the road less traveled]]
-p272
+p273
 sg20
-(lp273
+(lp274
 sg22
 g23
 ((I2013
@@ -881,32 +883,32 @@ I8
 I6
 I27
 I0
-tp274
-(dp275
-tp276
-Rp277
+tp275
+(dp276
+tp277
+Rp278
 sg28
-g277
+g278
 sg29
 VCut into your neighbor Mavis' garden
-p278
-sbsa(dp279
+p279
+sbsa(dp280
 g12
 I00
 sg13
-(lp280
+(lp281
 F1008.8333333333333
 aF900.16666666666708
 asg15
 (itiddlywiki
 Tiddler
-p281
-(dp282
+p282
+(dp283
 g18
 V<<display Stats>>\u000a
-p283
+p284
 sg20
-(lp284
+(lp285
 sg22
 g23
 ((I2013
@@ -918,32 +920,32 @@ I8
 I6
 I27
 I0
-tp285
-(dp286
-tp287
-Rp288
+tp286
+(dp287
+tp288
+Rp289
 sg28
-g288
+g289
 sg29
 VTake the walking path
-p289
-sbsa(dp290
+p290
+sbsa(dp291
 g12
 I00
 sg13
-(lp291
+(lp292
 F1370.1666666666665
 aF604.16666666666663
 asg15
 (itiddlywiki
 Tiddler
-p292
-(dp293
+p293
+(dp294
 g18
 V<<display Stats>>\u000aHe responds to your polite greating with a roar of his own. He waves, tips his hat, and moves along.\u000a\u000aYou're out of the forest.\u000a\u000a[[Go South]]\u000a[[Go North]]
-p294
+p295
 sg20
-(lp295
+(lp296
 sg22
 g23
 ((I2013
@@ -955,33 +957,35 @@ I8
 I6
 I27
 I0
-tp296
-(dp297
-tp298
-Rp299
+tp297
+(dp298
+tp299
+Rp300
 sg28
-g299
+g300
 sg29
 VRoar
-p300
-sbsa(dp301
+p301
+sbsa(dp302
 g12
 I00
 sg13
-(lp302
+(lp303
 F1099.9999999999998
 aF255.00000000000017
 asg15
 (itiddlywiki
 Tiddler
-p303
-(dp304
+p304
+(dp305
 g18
 V<<set $health = ($health + 10)>>\u000a<<set $time = ($time - 5)>>\u000a<<display Stats>>\u000a\u000aYou spend some quiet time with your favorite books, forgetting about your troubles for a moment. You gain 10 Health and spend 5 Time.\u000a\u000a[[Move along]]
-p305
+p306
 sg20
-(lp306
-sg22
+(lp307
+Vlibrary
+p308
+asg22
 g23
 ((I2013
 I1
@@ -992,32 +996,32 @@ I8
 I6
 I27
 I0
-tp307
-(dp308
 tp309
-Rp310
+(dp310
+tp311
+Rp312
 sg28
-g310
+g312
 sg29
 VHead to library
-p311
-sbsa(dp312
+p313
+sbsa(dp314
 g12
 I00
 sg13
-(lp313
+(lp315
 F1478.3333333333335
 aF1085.0000000000007
 asg15
 (itiddlywiki
 Tiddler
-p314
-(dp315
+p316
+(dp317
 g18
 V<<display Stats>>\u000aYou decide to take the path through the woods to get out. You remember how many times before you'd walked this same way, as a much younger man.\u000a\u000aYou don't remember the huge, unholy wasp nest, though.\u000a\u000aThe wasps are now after you now. (-10 health)\u000a\u000a[[Run out of the woods]]
-p316
+p318
 sg20
-(lp317
+(lp319
 sg22
 g23
 ((I2013
@@ -1029,32 +1033,32 @@ I8
 I6
 I27
 I0
-tp318
-(dp319
 tp320
-Rp321
+(dp321
+tp322
+Rp323
 sg28
-g321
+g323
 sg29
 VTake a walk down memory lane
-p322
-sbsa(dp323
+p324
+sbsa(dp325
 g12
 I00
 sg13
-(lp324
+(lp326
 F1507.4999999999998
 aF354.16666666666691
 asg15
 (itiddlywiki
 Tiddler
-p325
-(dp326
+p327
+(dp328
 g18
 V<<display Stats>>\u000aYou are in the city. It's big.\u000a\u000a\u000a\u000a[[Go towards buildings]]\u000a[[Go towards buildings]]
-p327
+p329
 sg20
-(lp328
+(lp330
 sg22
 g23
 ((I2013
@@ -1066,32 +1070,32 @@ I8
 I6
 I27
 I0
-tp329
-(dp330
 tp331
-Rp332
+(dp332
+tp333
+Rp334
 sg28
-g332
+g334
 sg29
 VGo towards buildings
-p333
-sbsa(dp334
+p335
+sbsa(dp336
 g12
 I00
 sg13
-(lp335
+(lp337
 F2103.3333333333339
 aF498.33333333333348
 asg15
 (itiddlywiki
 Tiddler
-p336
-(dp337
+p338
+(dp339
 g18
 V<<display Stats>>\u000aShit is fast.
-p338
+p340
 sg20
-(lp339
+(lp341
 sg22
 g23
 ((I2013
@@ -1103,32 +1107,32 @@ I8
 I6
 I27
 I0
-tp340
-(dp341
 tp342
-Rp343
+(dp343
+tp344
+Rp345
 sg28
-g343
+g345
 sg29
 VGo Freeway
-p344
-sbsa(dp345
+p346
+sbsa(dp347
 g12
 I00
 sg13
-(lp346
+(lp348
 F1616.6666666666667
 aF903.33333333333326
 asg15
 (itiddlywiki
 Tiddler
-p347
-(dp348
+p349
+(dp350
 g18
 V<<display Stats>>\u000aA busy day at the park. Irreverance surrounds you.\u000a\u000a\u000a[[Go North]]\u000a[[Sneak out the back towards the racially diverse neighborhood]]
-p349
+p351
 sg20
-(lp350
+(lp352
 sg22
 g23
 ((I2013
@@ -1140,32 +1144,32 @@ I8
 I6
 I27
 I0
-tp351
-(dp352
 tp353
-Rp354
+(dp354
+tp355
+Rp356
 sg28
-g354
+g356
 sg29
 VWalk around to the main path
-p355
-sbsa(dp356
+p357
+sbsa(dp358
 g12
 I00
 sg13
-(lp357
+(lp359
 F1193.3333333333328
 aF1408.3333333333328
 asg15
 (itiddlywiki
 Tiddler
-p358
-(dp359
+p360
+(dp361
 g18
 V<<display Stats>>\u000a
-p360
+p362
 sg20
-(lp361
+(lp363
 sg22
 g23
 ((I2013
@@ -1177,33 +1181,35 @@ I8
 I6
 I27
 I0
-tp362
-(dp363
 tp364
-Rp365
+(dp365
+tp366
+Rp367
 sg28
-g365
+g367
 sg29
 VTake the main drag
-p366
-sbsa(dp367
+p368
+sbsa(dp369
 g12
 I00
 sg13
-(lp368
+(lp370
 F2101.6666666666665
 aF28.333333333333528
 asg15
 (itiddlywiki
 Tiddler
-p369
-(dp370
-g18
-V<<display Stats>>\u000aYou have goned to store.\u000a\u000a\u000a[img[http://wikitext.tiddlyspace.com/fractalveg.jpg]]
 p371
+(dp372
+g18
+V<<display Stats>>\u000a\u000aYou have goned to store.\u000a\u000a[[gone hard]]\u000a\u000a\u000a\u000a[img[http://wikitext.tiddlyspace.com/fractalveg.jpg]]
+p373
 sg20
-(lp372
-sg22
+(lp374
+Vgoned
+p375
+asg22
 g23
 ((I2013
 I1
@@ -1214,32 +1220,32 @@ I8
 I6
 I27
 I0
-tp373
-(dp374
-tp375
-Rp376
+tp376
+(dp377
+tp378
+Rp379
 sg28
-g376
+g379
 sg29
-VGo to store?
-p377
-sbsa(dp378
+VGo to Store?
+p380
+sbsa(dp381
 g12
 I00
 sg13
-(lp379
+(lp382
 F1911.6666666666661
 aF30.000000000000195
 asg15
 (itiddlywiki
 Tiddler
-p380
-(dp381
+p383
+(dp384
 g18
 V<<display Stats>>\u000aYou decide to cross the street here. \u000a\u000aYou make it most of the way across, but a car comes screeching down the road. \u000a\u000aYou just barely jump out of the way. These old bones just can't take these kinds of surprises. (-15 health)\u000a\u000aYou've finally made it to the pharmacy.\u000a\u000a[[Enter pharmacy]]
-p382
+p385
 sg20
-(lp383
+(lp386
 sg22
 g23
 ((I2013
@@ -1251,32 +1257,32 @@ I8
 I6
 I27
 I0
-tp384
-(dp385
-tp386
-Rp387
+tp387
+(dp388
+tp389
+Rp390
 sg28
-g387
+g390
 sg29
 VCross the street
-p388
-sbsa(dp389
+p391
+sbsa(dp392
 g12
 I00
 sg13
-(lp390
+(lp393
 F268.33333333333348
 aF6.6666666666668952
 asg15
 (itiddlywiki
 Tiddler
-p391
-(dp392
+p394
+(dp395
 g18
 V<<display Stats>>\u000a\u000a\u000aShit is fast
-p393
+p396
 sg20
-(lp394
+(lp397
 sg22
 g23
 ((I2013
@@ -1288,32 +1294,32 @@ I8
 I6
 I27
 I0
-tp395
-(dp396
-tp397
-Rp398
+tp398
+(dp399
+tp400
+Rp401
 sg28
-g398
+g401
 sg29
 VGet on train
-p399
-sbsa(dp400
+p402
+sbsa(dp403
 g12
 I00
 sg13
-(lp401
+(lp404
 F2033.3333333333326
 aF994.99999999999955
 asg15
 (itiddlywiki
 Tiddler
-p402
-(dp403
+p405
+(dp406
 g18
 V<<display Stats>>\u000a
-p404
+p407
 sg20
-(lp405
+(lp408
 sg22
 g23
 ((I2013
@@ -1325,32 +1331,32 @@ I8
 I6
 I27
 I0
-tp406
-(dp407
-tp408
-Rp409
+tp409
+(dp410
+tp411
+Rp412
 sg28
-g409
+g412
 sg29
 VWalk the rest of the way to town
-p410
-sbsa(dp411
+p413
+sbsa(dp414
 g12
 I00
 sg13
-(lp412
+(lp415
 F252.83333333333346
 aF1046.8333333333335
 asg15
 (itiddlywiki
 Tiddler
-p413
-(dp414
+p416
+(dp417
 g18
 V<<display Stats>>\u000a
-p415
+p418
 sg20
-(lp416
+(lp419
 sg22
 g23
 ((I2013
@@ -1362,32 +1368,32 @@ I8
 I6
 I27
 I0
-tp417
-(dp418
-tp419
-Rp420
+tp420
+(dp421
+tp422
+Rp423
 sg28
-g420
+g423
 sg29
 VClimb your fence
-p421
-sbsa(dp422
+p424
+sbsa(dp425
 g12
 I00
 sg13
-(lp423
+(lp426
 F2114.9999999999995
 aF198.33333333333329
 asg15
 (itiddlywiki
 Tiddler
-p424
-(dp425
+p427
+(dp428
 g18
 V<<display Stats>>\u000aYou go to pay for the perscription but find you don't have enough to pay.\u000a\u000aYou look desprately to the young clerk. You tell her you'll pay for them the next day.\u000a\u000a[[Beg the clerk]]
-p426
+p429
 sg20
-(lp427
+(lp430
 sg22
 g23
 ((I2013
@@ -1399,32 +1405,32 @@ I8
 I6
 I27
 I0
-tp428
-(dp429
-tp430
-Rp431
+tp431
+(dp432
+tp433
+Rp434
 sg28
-g431
+g434
 sg29
 VBest pay the young lady
-p432
-sbsa(dp433
+p435
+sbsa(dp436
 g12
 I00
 sg13
-(lp434
+(lp437
 F1814.999999999998
 aF1110.0000000000002
 asg15
 (itiddlywiki
 Tiddler
-p435
-(dp436
+p438
+(dp439
 g18
 V<<display Stats>>\u000aYou ran out as fast as you could, or could be expected to. \u000a\u000aThe wasps are still chasing you. (-3 Health)\u000a\u000aYou see the bus stop ahead, but it'll cost some to take it. You could always walk the rest of the way into town too.\u000a\u000a[[Take the bus]]\u000a[[Walk the rest of the way to town]]
-p437
+p440
 sg20
-(lp438
+(lp441
 sg22
 g23
 ((I2013
@@ -1436,32 +1442,32 @@ I8
 I6
 I27
 I0
-tp439
-(dp440
-tp441
-Rp442
+tp442
+(dp443
+tp444
+Rp445
 sg28
-g442
+g445
 sg29
 VRun out of the woods
-p443
-sbsa(dp444
+p446
+sbsa(dp447
 g12
 I00
 sg13
-(lp445
+(lp448
 F1506.6666666666667
 aF-14.999999999999867
 asg15
 (itiddlywiki
 Tiddler
-p446
-(dp447
+p449
+(dp450
 g18
 V<<display Stats>>\u000aYou come off the small, side stret to a wider boulevard. \u000a\u000aThe library is on thos road. It's a great place to relax.\u000a\u000aThe church is here too. You remember they have their weekly bingo game going on right now. It usually pays out pretty well if you win.\u000a\u000aThe pharmacy isn't much further from here either.\u000a\u000a[[Head to library\u000a]]\u000a[[Head to church]]\u000a[[Move along]]
-p448
+p451
 sg20
-(lp449
+(lp452
 sg22
 g23
 ((I2013
@@ -1473,32 +1479,32 @@ I8
 I6
 I27
 I0
-tp450
-(dp451
-tp452
-Rp453
+tp453
+(dp454
+tp455
+Rp456
 sg28
-g453
+g456
 sg29
 VContinue on
-p454
-sbsa(dp455
+p457
+sbsa(dp458
 g12
 I00
 sg13
-(lp456
+(lp459
 F1371.666666666667
 aF726.66666666666697
 asg15
 (itiddlywiki
 Tiddler
-p457
-(dp458
+p460
+(dp461
 g18
 V<<display Stats>>\u000aIt's not a T-Rex. It sees you and kills you
-p459
+p462
 sg20
-(lp460
+(lp463
 sg22
 g23
 ((I2013
@@ -1510,32 +1516,32 @@ I8
 I6
 I27
 I0
-tp461
-(dp462
-tp463
-Rp464
+tp464
+(dp465
+tp466
+Rp467
 sg28
-g464
+g467
 sg29
 VDon't move
-p465
-sbsa(dp466
+p468
+sbsa(dp469
 g12
 I00
 sg13
-(lp467
+(lp470
 F1954.9999999999995
 aF353.3333333333336
 asg15
 (itiddlywiki
 Tiddler
-p468
-(dp469
+p471
+(dp472
 g18
 V<<display Stats>>\u000aBetter safe than sorry. And better late than absent.\u000a\u000aYou've finally made it to the pharmacy.\u000a\u000a[[Enter pharmacy]]
-p470
+p473
 sg20
-(lp471
+(lp474
 sg22
 g23
 ((I2013
@@ -1547,32 +1553,32 @@ I8
 I6
 I27
 I0
-tp472
-(dp473
-tp474
-Rp475
+tp475
+(dp476
+tp477
+Rp478
 sg28
-g475
+g478
 sg29
 VTake the longer route
-p476
-sbsa(dp477
+p479
+sbsa(dp480
 g12
 I00
 sg13
-(lp478
+(lp481
 F1373.333333333333
 aF480.00000000000023
 asg15
 (itiddlywiki
 Tiddler
-p479
-(dp480
+p482
+(dp483
 g18
 V<<display Stats>>\u000aYou end up in the den of the bear
-p481
+p484
 sg20
-(lp482
+(lp485
 sg22
 g23
 ((I2013
@@ -1584,32 +1590,32 @@ I8
 I6
 I27
 I0
-tp483
-(dp484
-tp485
-Rp486
+tp486
+(dp487
+tp488
+Rp489
 sg28
-g486
+g489
 sg29
 VJuke left
-p487
-sbsa(dp488
+p490
+sbsa(dp491
 g12
 I00
 sg13
-(lp489
+(lp492
 F2036.6666666666665
 aF695.00000000000045
 asg15
 (itiddlywiki
 Tiddler
-p490
-(dp491
+p493
+(dp494
 g18
 V<<display Stats>>\u000aYou're in the city.
-p492
+p495
 sg20
-(lp493
+(lp496
 sg22
 g23
 ((I2013
@@ -1621,32 +1627,32 @@ I8
 I6
 I27
 I0
-tp494
-(dp495
-tp496
-Rp497
+tp497
+(dp498
+tp499
+Rp500
 sg28
-g497
+g500
 sg29
 VGo City
-p498
-sbsa(dp499
+p501
+sbsa(dp502
 g12
 I00
 sg13
-(lp500
+(lp503
 F277.16666666666691
 aF258.83333333333331
 asg15
 (itiddlywiki
 Tiddler
-p501
-(dp502
+p504
+(dp505
 g18
 V<<display Stats>>\u000a\u000a\u000aYou went left.\u000a\u000aLook. A Train station.\u000a\u000a\u000a[[Get on train]]\u000a[[Don't get on train]]
-p503
+p506
 sg20
-(lp504
+(lp507
 sg22
 g23
 ((I2013
@@ -1658,32 +1664,32 @@ I8
 I6
 I27
 I0
-tp505
-(dp506
-tp507
-Rp508
+tp508
+(dp509
+tp510
+Rp511
 sg28
-g508
+g511
 sg29
 VGo left
-p509
-sbsa(dp510
+p512
+sbsa(dp513
 g12
 I00
 sg13
-(lp511
+(lp514
 F1813.6666666666658
 aF1295.3333333333337
 asg15
 (itiddlywiki
 Tiddler
-p512
-(dp513
+p515
+(dp516
 g18
 V<<display Stats>>\u000aYou get to the bus stop just as the bus pulls up.\u000a\u000aYou pay the fare. (-$5) \u000a\u000aThe wasps must not have had enough. They don't follow you on the bus.\u000a\u000a[[The bus takes you into town]]
-p514
+p517
 sg20
-(lp515
+(lp518
 sg22
 g23
 ((I2013
@@ -1695,38 +1701,38 @@ I8
 I6
 I27
 I0
-tp516
-(dp517
-tp518
-Rp519
+tp519
+(dp520
+tp521
+Rp522
 sg28
-g519
+g522
 sg29
 VTake the bus
-p520
-sbsa(dp521
+p523
+sbsa(dp524
 g12
 I00
 sg13
-(lp522
+(lp525
 F23.333333333333329
 aF491.66666666666657
 asg15
 (itiddlywiki
 Tiddler
-p523
-(dp524
-S'text'
-p525
-V<<silently>>\u000a<<set $health = ($health - 1)>>\u000a<<set $time = ($time - 1)>>\u000a<<endsilently>>\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.
 p526
-sS'tags'
-p527
-(lp528
-VStats
+(dp527
+S'text'
+p528
+V<<silently>>\u000a<<set $health = ($health - 1)>>\u000a<<set $time = ($time - 1)>>\u000a<<endsilently>>\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.
 p529
-asS'created'
+sS'tags'
 p530
+(lp531
+VStats
+p532
+asS'created'
+p533
 g23
 ((I2013
 I1
@@ -1737,35 +1743,35 @@ I30
 I6
 I27
 I0
-tp531
-(dp532
-tp533
-Rp534
+tp534
+(dp535
+tp536
+Rp537
 sS'modified'
-p535
-g534
+p538
+g537
 sS'title'
-p536
+p539
 VStats
-p537
-sbsa(dp538
+p540
+sbsa(dp541
 g12
 I00
 sg13
-(lp539
+(lp542
 F4.9999999999999991
 aF249.99999999999997
 asg15
 (itiddlywiki
 Tiddler
-p540
-(dp541
-g525
+p543
+(dp544
+g528
 V<<silently>>\u000a<<if ((Math.random()*2) gt 1)>>\u000a<<set $coinflip = 2>>\u000a<<else>>\u000a<<set $coinflip = 1>>\u000a<<endif>>\u000a<<endsilently>>
-p542
-sg527
-(lp543
+p545
 sg530
+(lp546
+sg533
 g23
 ((I2013
 I1
@@ -1776,95 +1782,142 @@ I25
 I6
 I27
 I0
-tp544
-(dp545
-tp546
-Rp547
-sg535
-g547
-sg536
+tp547
+(dp548
+tp549
+Rp550
+sg538
+g550
+sg539
 VCoinflip
-p548
-sbsa(dp549
-g12
-I00
-sg13
-(lp550
-F611.66666666666663
-aF595.0
-asg15
-(itiddlywiki
-Tiddler
 p551
-(dp552
-S'text'
-p553
-V<<if $luck gt .2>>\u000a<<display Stats>>\u000a\u000aThe dog stares at you blankly with a gigantic doggy smile plastered on his face. You should get a dog.\u000a\u000a<<else>>\u000a<<silently>>\u000a<<set $health = ($health - 10)>>\u000a<<endsilently>> \u000a<<display Stats>>\u000a\u000aYou walk past the dog. Its barks are low and powerful. You can feel them in your chest. It drools a little as it barks. Why is this dog so aggressive? Is it a fighting dog? Should you call someone?\u000a\u000aYour thoughts come to an apbrupt halt as yet another overpowering bark surprised you. Your heart flutters, and it puts a little spring in your step.\u000a\u000aHopefully no one noticed you power-walk away\u000a\u000a<<endif>>
-p554
-sS'tags'
-p555
-(lp556
-sS'created'
-p557
-g23
-((I2013
-I1
-I27
-I13
-I50
-I29
-I6
-I27
-I0
-tp558
-(dp559
-tp560
-Rp561
-sS'modified'
-p562
-g561
-sS'title'
-p563
-VWalk past the dog
-p564
-sbsa(dp565
+sbsa(dp552
 g12
 I00
 sg13
-(lp566
-F646.66666666666663
-aF276.66666666666652
+(lp553
+F4910.0
+aF10.0
 asg15
 (itiddlywiki
 Tiddler
-p567
-(dp568
-g553
-V<<display Stats>>\u000a\u000aYou are hit by a car
-p569
-sg555
-(lp570
-sg557
+p554
+(dp555
+S'text'
+p556
+V<<display Stats>>\u000a\u000a<<display 'Coinflip'>>\u000a<<if $coinflip eq 1>>\u000a<<display 'gone harder'>>\u000a<<else>>\u000a<<display 'goned too hard'>>\u000a<<endif>>\u000a\u000a\u000a\u000a\u000a\u000a
+p557
+sS'tags'
+p558
+(lp559
+Vgoned
+p560
+asS'created'
+p561
 g23
 ((I2013
 I1
 I27
 I13
-I50
-I42
+I35
+I11
 I6
 I27
 I0
-tp571
+tp562
+(dp563
+tp564
+Rp565
+sS'modified'
+p566
+g565
+sS'title'
+p567
+Vgone hard
+p568
+sbsa(dp569
+g12
+I00
+sg13
+(lp570
+I150
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p571
 (dp572
-tp573
-Rp574
-sg562
-g574
-sg563
-VWalk across the street hurridly
+g556
+Vbad news bears bro
+p573
+sg558
+(lp574
+Vgoned
 p575
-sbsasS'scale'
+aVbad
 p576
+asg561
+g23
+((I2013
+I1
+I27
+I13
+I35
+I23
+I6
+I27
+I0
+tp577
+(dp578
+tp579
+Rp580
+sg566
+g580
+sg567
+Vgoned too hard
+p581
+sbsa(dp582
+g12
+I00
+sg13
+(lp583
+F4210.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p584
+(dp585
+g556
+Vyay
+p586
+sg558
+(lp587
+Vgoned
+p588
+aVgood
+p589
+asg561
+g23
+((I2013
+I1
+I27
+I13
+I59
+I57
+I6
+I27
+I0
+tp590
+(dp591
+tp592
+Rp593
+sg566
+g593
+sg567
+Vgone harder
+p594
+sbsasS'scale'
+p595
 F0.60000000000000009
 ss.
