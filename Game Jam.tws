@@ -71,8 +71,8 @@ g12
 I00
 sg13
 (lp33
-F1904.0
-aF1235.6666666666665
+F1797.3333333333328
+aF1058.9999999999998
 asg15
 (itiddlywiki
 Tiddler
@@ -638,8 +638,8 @@ g12
 I00
 sg13
 (lp214
-F823.50330844411963
-aF616.64541977781903
+F451.83664177745311
+aF889.97875311115217
 asg15
 (itiddlywiki
 Tiddler
@@ -675,8 +675,8 @@ g12
 I00
 sg13
 (lp225
-F669.82061555272242
-aF1392.5684453347897
+F608.15394888605556
+aF1179.2351120014559
 asg15
 (itiddlywiki
 Tiddler
@@ -712,15 +712,15 @@ g12
 I00
 sg13
 (lp236
-F1899.8206155527225
-aF2039.939901657257
+F741.4872822193895
+aF1548.2732349905887
 asg15
 (itiddlywiki
 Tiddler
 p237
 (dp238
 g47
-VYou draw closer to the city
+VYou draw closer to the city\u000a\u000a[[Enter the City]]\u000a[[Don't enter the City]]
 p239
 sg49
 (lp240
@@ -744,7 +744,118 @@ g244
 sg57
 VGo right
 p245
+sbsa(dp246
+g12
+I00
+sg13
+(lp247
+F766.66666666666629
+aF1180.0
+asg15
+(itiddlywiki
+Tiddler
+p248
+(dp249
+g47
+VPussy.
+p250
+sg49
+(lp251
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I43
+I30
+I5
+I26
+I0
+tp252
+(dp253
+tp254
+Rp255
+sg56
+g255
+sg57
+VDon't enter the City
+p256
+sbsa(dp257
+g12
+I00
+sg13
+(lp258
+F1110.0000000000005
+aF1338.3333333333335
+asg15
+(itiddlywiki
+Tiddler
+p259
+(dp260
+g47
+VYou're in the city. Shit is confusing.\u000a\u000a\u000a[[Go towards buildings]]\u000a[[Go towards buildings]]
+p261
+sg49
+(lp262
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I43
+I44
+I5
+I26
+I0
+tp263
+(dp264
+tp265
+Rp266
+sg56
+g266
+sg57
+VEnter the City
+p267
+sbsa(dp268
+g12
+I01
+sg13
+(lp269
+F1104.9999999999998
+aF1129.9999999999982
+asg15
+(itiddlywiki
+Tiddler
+p270
+(dp271
+g47
+VYou are in the city. It's big.\u000a\u000a\u000a\u000a[[Go towards buildings]]\u000a[[Go towards buildings]]
+p272
+sg49
+(lp273
+sg51
+g24
+((I2013
+I1
+I26
+I20
+I44
+I14
+I5
+I26
+I0
+tp274
+(dp275
+tp276
+Rp277
+sg56
+g277
+sg57
+VGo towards buildings
+p278
 sbsasS'scale'
-p246
+p279
 F0.60000000000000009
 ss.
