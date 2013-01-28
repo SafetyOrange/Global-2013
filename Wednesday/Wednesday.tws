@@ -1,0 +1,1673 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cAlgooLenovo\u005cDesktop\u005cWednesday\u005cWednesday.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cAlgooLenovo\u005cDesktop\u005cWednesday\u005cWednesday.tws
+p4
+sS'target'
+p5
+S'sugarcane'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+F1708.3333333333328
+aF189.99999999999994
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+V<<display Stats>>\u000a<<display Coinflip>>\u000a<<if $coinflip eq 1>>\u000aYou cross the street without incident. You've finally made it to the pharmacy.\u000a<<else>>\u000a<<set $health = $health - 10>>\u000aYou make it most of the way across the street when a car comes scheeching down the road. You jump out of the way just in time, but these old bones aren't meant for these kinds of surprises. You lose 10 health. \u000a<<endif>>\u000a\u000aYou finally made it to the pharmacy.\u000a\u000a[[Enter pharmacy]]
+p19
+sS'tags'
+p20
+(lp21
+Vcross
+p22
+asS'created'
+p23
+ctime
+struct_time
+p24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp25
+(dp26
+tp27
+Rp28
+sS'modified'
+p29
+g28
+sS'title'
+p30
+VCross the street here
+p31
+sbsa(dp32
+g12
+I00
+sg13
+(lp33
+F1151.3333333333323
+aF1441.3333333333323
+asg15
+(itiddlywiki
+Tiddler
+p34
+(dp35
+g18
+V<<display Stats>>\u000a<<display Coinflip>>\u000a<<if $coinflip eq 1>>\u000aYou untie the old little boat and safely float across.\u000a\u000aYou disembark, making sure the push the boat out to float to the middle of the lake. Mavis has more than earned the inconvenience.\u000a\u000aThe main walkway that leads out of the park lies ahead, but you also see off to the side a path leading into the woods. You remember how that path used to be the only route to the exit, but that was a long time ago.\u000a\u000a[[Take a walk down memory lane]]\u000a<<else>>\u000a\u000aThe boat is in worse shape than you thought and it begins to take on water. You swim back to the shore. \u000a\u000aYou are exhausted. You'll have to try again tomorrow.\u000a\u000aPlease click 'Restart'.\u000a\u000a<<endif>>
+p36
+sg20
+(lp37
+Vboat
+p38
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp39
+(dp40
+tp41
+Rp42
+sg29
+g42
+sg30
+VUse Mavis' boat
+p43
+sbsa(dp44
+g12
+I00
+sg13
+(lp45
+F1651.6666666666645
+aF1503.3333333333367
+asg15
+(itiddlywiki
+Tiddler
+p46
+(dp47
+g18
+V<<display Stats>>\u000a
+p48
+sg20
+(lp49
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp50
+(dp51
+tp52
+Rp53
+sg29
+g53
+sg30
+VTake the main walkway
+p54
+sbsa(dp55
+g12
+I00
+sg13
+(lp56
+F754.8333333333336
+aF100.83333333333353
+asg15
+(itiddlywiki
+Tiddler
+p57
+(dp58
+g18
+V<<display Stats>>\u000aPussy.
+p59
+sg20
+(lp60
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp61
+(dp62
+tp63
+Rp64
+sg29
+g64
+sg30
+VDon't enter the City
+p65
+sbsa(dp66
+g12
+I00
+sg13
+(lp67
+F475.50000000000028
+aF305.83333333333331
+asg15
+(itiddlywiki
+Tiddler
+p68
+(dp69
+g18
+V<<display Stats>>\u000a\u000a\u000aYou reach the end of your street. The house on the corner with the unkept lawn marks the intersection with the main road.\u000a\u000aOutside, there is a dog barking at you. It seems to be on a leash securely connected to a post. You're probably fine, but the dog is barking rather loudly.\u000a\u000a[[Walk past the dog]]\u000a[[Walk across the street hurridly]]
+p70
+sg20
+(lp71
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp72
+(dp73
+tp74
+Rp75
+sg29
+g75
+sg30
+VGo right
+p76
+sbsa(dp77
+g12
+I00
+sg13
+(lp78
+F84.833333333333485
+aF716.16666666666652
+asg15
+(itiddlywiki
+Tiddler
+p79
+(dp80
+g18
+V<<silently>>\u000a<<set $health = 60>>\u000a<<set $cash = 25>>\u000a<<set $time = 100>>\u000a<<set $coinflip = 1>>\u000a<<set $luck = Math.random()>>\u000a<<set $rain = 1>>\u000a<<endsilently>>\u000aYou are an old man. You have run out of medicine for your heart condition, and must go to the store for a refill. Stress will lower your Health, while calming activities will raise it. If your Health reaches 0, you will become exhausted and need to try again the next day. You will need to reach the pharmacy before time runs out; you'll need to make the return trip before nightfall, otherwise you'll be unable to see.\u000a\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a\u000aAs you put on your coat, you see a pair of traveling salesmen on bicycles. When did they start riding those?\u000a\u000a[[Go out the front?]]\u000a[[Go out the back?]]
+p81
+sg20
+(lp82
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp83
+(dp84
+tp85
+Rp86
+sg29
+g86
+sg30
+VStart
+p87
+sbsa(dp88
+g12
+I00
+sg13
+(lp89
+F2298.3333333333317
+aF331.66666666666657
+asg15
+(itiddlywiki
+Tiddler
+p90
+(dp91
+g18
+V<<display Stats>>\u000a<<display Coinflip>>\u000a<<if $coinflip eq 1>>\u000aShe gives you a sad smile. But she doesn't have the heart to let you leave without your medicine. She gives you the bag and tells you not to worry about it.\u000a\u000aTime to head home. It's been a long day, but it was nice to get out for a while.\u000a\u000a<<else>>\u000a\u000aYou see her face fall a little. You both know she can't do that. You nod sadly and move to exit the store.\u000a\u000aYou'll have to try again tomorrow.\u000a\u000aPlease choose 'Restart'\u000a\u000a<<endif>>\u000a\u000a
+p92
+sg20
+(lp93
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp94
+(dp95
+tp96
+Rp97
+sg29
+g97
+sg30
+VBeg the clerk
+p98
+sbsa(dp99
+g12
+I00
+sg13
+(lp100
+F1953.3333333333333
+aF201.66666666666669
+asg15
+(itiddlywiki
+Tiddler
+p101
+(dp102
+g18
+V<<display Stats>>\u000aAt long last you've made it. Time to get what you came for.\u000a\u000aThe clerk behind the counter greets you and has your perscription already waiting.\u000a\u000a"That'll be $20."\u000a\u000a[[Best pay the young lady]]
+p103
+sg20
+(lp104
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp105
+(dp106
+tp107
+Rp108
+sg29
+g108
+sg30
+VEnter pharmacy
+p109
+sbsa(dp110
+g12
+I00
+sg13
+(lp111
+F1696.6666666666667
+aF26.666666666666671
+asg15
+(itiddlywiki
+Tiddler
+p112
+(dp113
+g18
+V<<display Stats>>\u000a<<display Coinflip>>\u000aYou decide to try you luck at at the weekly bingo game.\u000a<<if $coinflip eq 1>>\u000a<<set $cash eq $cash + 20>>\u000a<<set $health eq $health + 5>>\u000aB-I-N-G-O! You won! You get $20 from your win. Winning always feels great. You gain 5 health.\u000a<<else>>\u000aWell, winning isn't everything. \u000a<<endif>>\u000a\u000a[[Move along]]
+p114
+sg20
+(lp115
+Vchurch
+p116
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp117
+(dp118
+tp119
+Rp120
+sg29
+g120
+sg30
+VHead to church
+p121
+sbsa(dp122
+g12
+I00
+sg13
+(lp123
+F799.99999999999886
+aF884.99999999999875
+asg15
+(itiddlywiki
+Tiddler
+p124
+(dp125
+g18
+V<<display Stats>>\u000a\u000a\u000aYou find a lake. Back in your hayday, you could probably go for a run along its edge. \u000a\u000a<<set $health = $health + 10>>\u000aIt's clear, calm waters are soothing. You gain 10 health.\u000a\u000aBut you can't do that now. You're not even sure if you could row across if you had a boat\u000a\u000a\u000a[[Continue to the end of the park]]\u000a[[Use Mavis' boat]]
+p126
+sg20
+(lp127
+Vlake
+p128
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp129
+(dp130
+tp131
+Rp132
+sg29
+g132
+sg30
+VTake the lake route
+p133
+sbsa(dp134
+g12
+I00
+sg13
+(lp135
+F766.49999999999977
+aF403.16666666666663
+asg15
+(itiddlywiki
+Tiddler
+p136
+(dp137
+g18
+V<<display Stats>>\u000aYou're in the city. Shit is confusing.\u000a\u000a\u000a[[Go towards buildings]]\u000a[[Go towards buildings]]
+p138
+sg20
+(lp139
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp140
+(dp141
+tp142
+Rp143
+sg29
+g143
+sg30
+VEnter the City
+p144
+sbsa(dp145
+g12
+I00
+sg13
+(lp146
+F260.83333333333366
+aF858.16666666666674
+asg15
+(itiddlywiki
+Tiddler
+p147
+(dp148
+g18
+V<<display Stats>>\u000a\u000aYou leave your house through the back door to avoid the salesmen; you don't need to deal with something like that right now.\u000a\u000a[[Cut into your neighbor Mavis' garden]]\u000a[[Climb your fence]]
+p149
+sg20
+(lp150
+Vexit
+p151
+aVhouse
+p152
+aVback
+p153
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp154
+(dp155
+tp156
+Rp157
+sg29
+g157
+sg30
+VGo out the back?
+p158
+sbsa(dp159
+g12
+I00
+sg13
+(lp160
+F2303.3333333333317
+aF1198.3333333333339
+asg15
+(itiddlywiki
+Tiddler
+p161
+(dp162
+g18
+V<<display Stats>>\u000aThe bus takes you as far as the outskirts of town. You're on your own now.\u000a\u000aThere's a quieter side street that will get you to where you're going.\u000a\u000a[[Take the side street]]
+p163
+sg20
+(lp164
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp165
+(dp166
+tp167
+Rp168
+sg29
+g168
+sg30
+VThe bus takes you into town
+p169
+sbsa(dp170
+g12
+I00
+sg13
+(lp171
+F569.99999999999955
+aF91.666666666666814
+asg15
+(itiddlywiki
+Tiddler
+p172
+(dp173
+g18
+V<<display Stats>>\u000aPussy.
+p174
+sg20
+(lp175
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp176
+(dp177
+tp178
+Rp179
+sg29
+g179
+sg30
+VDon't get on train
+p180
+sbsa(dp181
+g12
+I00
+sg13
+(lp182
+F1466.666666666667
+aF198.33333333333354
+asg15
+(itiddlywiki
+Tiddler
+p183
+(dp184
+g18
+V<<display Stats>>\u000aDown the road a litle ways, you can see the pharmacy is close. It's across the street though.\u000a\u000aThis street is always a little worrisome though. You wonder if they'll ever put a stop sign there.\u000a\u000aYou could always take the longer way around.\u000a\u000a[[Cross the street here]]\u000a[[Take the longer route]]
+p185
+sg20
+(lp186
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp187
+(dp188
+tp189
+Rp190
+sg29
+g190
+sg30
+VMove along
+p191
+sbsa(dp192
+g12
+I00
+sg13
+(lp193
+F802.50000000000068
+aF727.83333333333292
+asg15
+(itiddlywiki
+Tiddler
+p194
+(dp195
+g18
+V<<display Stats>>\u000a\u000aThere's a less-maintained path through the trees that you're familiar with.  Walking on the rough roads strains your body. You lose 10 Health.\u000a\u000aAt the end of the woods, you find the exit to the park.\u000a<<set $health = $health - 10>>\u000a\u000aYou see the bus stop ahead, but it'll cost some to take it. You could always walk the rest of the way into town too.\u000a\u000a[[Take the bus]]\u000a[[Walk the rest of the way to town]]
+p196
+sg20
+(lp197
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp198
+(dp199
+tp200
+Rp201
+sg29
+g201
+sg30
+VTake the road less traveled
+p202
+sbsa(dp203
+g12
+I00
+sg13
+(lp204
+F1304.9999999999993
+aF11.666666666666895
+asg15
+(itiddlywiki
+Tiddler
+p205
+(dp206
+g18
+V<<display Stats>>\u000a<<display Coinflip>>\u000aYou walk down the nice quiet little street. \u000a\u000aYou see a somewhat scruffy young man. Bit rough around the edges, but he seems nice enough.\u000a\u000a<<if $coinflip eq 1>>\u000a"Hey man, you look a little stressed. I've got something that'll help you chill a little."\u000a<<set $health = $health + 15>>\u000a<<set $cash = $cash - 10>>\u000aChilling a little sounds great. You spend $10 and gain 15 health.\u000a<<else>>\u000aAs he approaches you notice he has a small blade in his hand. You're getting nervous.\u000a\u000a"Hey man, give me all you got."\u000a<<set $cash = $cash - 20>>\u000a<<set $health = $health - 5>>\u000aYou hand him $20. He doesn't seem concerned that this might not be all of it. He shambles off. What an awful experience. You lose 5 health.\u000a\u000a<<endif>>\u000a\u000a[[Continue on]]
+p207
+sg20
+(lp208
+Vside
+p209
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp210
+(dp211
+tp212
+Rp213
+sg29
+g213
+sg30
+VTake the side street
+p214
+sbsa(dp215
+g12
+I00
+sg13
+(lp216
+F279.16666666666663
+aF657.49999999999989
+asg15
+(itiddlywiki
+Tiddler
+p217
+(dp218
+g18
+V<<display Stats>>\u000a\u000aYou went out the front.\u000a\u000a<<if $luck gt .20>>\u000a\u000aYou are greeted by the warmth of the sun and a refreshing gust of spring air. \u000a\u000a<<else>>\u000a<<silently>>\u000a<<set $rain = 2>>\u000a<<endsilently>>\u000a\u000aIt's raining. You love the scent of rain. You always have. These days rain serves its purpose through a window from the comfort of your living room. As lovely as it is, wet asphault is a quick trip to the hostpital. Plus, medicine won't buy itself.\u000a\u000a<<endif>>\u000a\u000aYou encounter the cycling salesmen, who do their very best to sell you on their latest juicer. They don't manage to do it, but they do manage to annoy you. You lose 10 health.\u000a<<set $health = $health - 10>>\u000a\u000aThe high, piercing ring of their bicycle bells sends them off, and reminds you to check your mail. Bill, bill, bill, Social Security Check! You gain $10 Dollars.\u000a\u000a<<set $cash = $cash - 10>>\u000a\u000aAfter collecting your check, you make your way to the park.\u000a\u000a\u000a[[Take the walking path]]\u000a[[Take the lake route]]\u000a[[Take the road less traveled]]
+p219
+sg20
+(lp220
+Vexit
+p221
+aVhouse
+p222
+aVfront
+p223
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp224
+(dp225
+tp226
+Rp227
+sg29
+g227
+sg30
+VGo out the front?
+p228
+sbsa(dp229
+g12
+I00
+sg13
+(lp230
+F523.5
+aF855.5
+asg15
+(itiddlywiki
+Tiddler
+p231
+(dp232
+g18
+V<<display Stats>>\u000a<<display Coinflip>>\u000a<<if $coinflip eq 1>>\u000aYou cut through you neighbor's yard without incident. All the better too.\u000a\u000a<<else>>\u000a<<set $health = $health - 5>>\u000a\u000aYour neighbor Mavis sees you cutting through her garden and comes out to tell you exactly what she thinks about that.\u000a\u000aSuffering Mavis is always a tiresome affair. You lose 5 health.\u000a\u000a<<endif>>\u000a\u000aYou have entered the park.\u000a\u000a\u000a[[Take the walking path]]\u000a[[Take the lake route]]\u000a[[Take the road less traveled]]
+p233
+sg20
+(lp234
+Vmavis
+p235
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp236
+(dp237
+tp238
+Rp239
+sg29
+g239
+sg30
+VCut into your neighbor Mavis' garden
+p240
+sbsa(dp241
+g12
+I00
+sg13
+(lp242
+F717.16666666666663
+aF1165.1666666666667
+asg15
+(itiddlywiki
+Tiddler
+p243
+(dp244
+g18
+V<<display Stats>>\u000a\u000aThe park is filled with playing children, couples out for a stroll and families enjoying the outdoors. They're all so loud. \u000a\u000a<<display Coinflip>>\u000a\u000a<<if $coinflip eq 1>>\u000aA kid on a skateboard flies past, barely missing you. You need to take a second to calm down. The stress causes you to lose 10 Health.\u000a<<set $health = $health - 10>>\u000a<<else>>\u000aYou make it to the center of the park unaccosted.\u000a<<endif>>\u000a\u000a[[Continue to the end of the park]]
+p245
+sg20
+(lp246
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp247
+(dp248
+tp249
+Rp250
+sg29
+g250
+sg30
+VTake the walking path
+p251
+sbsa(dp252
+g12
+I00
+sg13
+(lp253
+F1099.9999999999998
+aF253.33333333333351
+asg15
+(itiddlywiki
+Tiddler
+p254
+(dp255
+g18
+V<<set $health = ($health + 10)>>\u000a<<set $time = ($time - 5)>>\u000a<<display Stats>>\u000a\u000aYou spend some quiet time with your favorite books, forgetting about your troubles for a moment. You gain 10 Health and spend 5 Time.\u000a\u000a[[Move along]]
+p256
+sg20
+(lp257
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp258
+(dp259
+tp260
+Rp261
+sg29
+g261
+sg30
+VHead to library
+p262
+sbsa(dp263
+g12
+I00
+sg13
+(lp264
+F1478.3333333333335
+aF1083.3333333333339
+asg15
+(itiddlywiki
+Tiddler
+p265
+(dp266
+g18
+V<<display Stats>>\u000aYou decide to take the path through the woods to get out. You remember how many times before you'd walked this same way, as a much younger man.\u000a\u000aYou don't remember the huge, unholy wasp nest, though.\u000a\u000a<<set $health = $health - 10>>\u000a\u000aThe wasps are now after you now. You lose 10 health.\u000a\u000a[[Run out of the woods]]
+p267
+sg20
+(lp268
+Vmemory
+p269
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp270
+(dp271
+tp272
+Rp273
+sg29
+g273
+sg30
+VTake a walk down memory lane
+p274
+sbsa(dp275
+g12
+I00
+sg13
+(lp276
+F324.16666666666674
+aF425.8333333333336
+asg15
+(itiddlywiki
+Tiddler
+p277
+(dp278
+g18
+V<<display Stats>>\u000aYou are in the city. It's big.\u000a\u000a\u000a\u000a[[Go towards buildings]]\u000a[[Go towards buildings]]
+p279
+sg20
+(lp280
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp281
+(dp282
+tp283
+Rp284
+sg29
+g284
+sg30
+VGo towards buildings
+p285
+sbsa(dp286
+g12
+I00
+sg13
+(lp287
+F2105.8333333333326
+aF1508.3333333333328
+asg15
+(itiddlywiki
+Tiddler
+p288
+(dp289
+g18
+V<<display Stats>>\u000a
+p290
+sg20
+(lp291
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp292
+(dp293
+tp294
+Rp295
+sg29
+g295
+sg30
+VTake the main drag
+p296
+sbsa(dp297
+g12
+I00
+sg13
+(lp298
+F2101.6666666666665
+aF28.333333333333528
+asg15
+(itiddlywiki
+Tiddler
+p299
+(dp300
+g18
+V<<display Stats>>\u000aYou have goned to store.\u000a\u000a\u000a[img[http://wikitext.tiddlyspace.com/fractalveg.jpg]]
+p301
+sg20
+(lp302
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp303
+(dp304
+tp305
+Rp306
+sg29
+g306
+sg30
+VGo to store?
+p307
+sbsa(dp308
+g12
+I00
+sg13
+(lp309
+F1911.6666666666661
+aF30.000000000000195
+asg15
+(itiddlywiki
+Tiddler
+p310
+(dp311
+g18
+V<<display Stats>>\u000aYou decide to cross the street here. \u000a\u000aYou make it most of the way across, but a car comes screeching down the road. \u000a\u000aYou just barely jump out of the way. These old bones just can't take these kinds of surprises. (-15 health)\u000a\u000aYou've finally made it to the pharmacy.\u000a\u000a[[Enter pharmacy]]
+p312
+sg20
+(lp313
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp314
+(dp315
+tp316
+Rp317
+sg29
+g317
+sg30
+VCross the street
+p318
+sbsa(dp319
+g12
+I00
+sg13
+(lp320
+F268.33333333333348
+aF6.6666666666668952
+asg15
+(itiddlywiki
+Tiddler
+p321
+(dp322
+g18
+V<<display Stats>>\u000a\u000a\u000aShit is fastest
+p323
+sg20
+(lp324
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp325
+(dp326
+tp327
+Rp328
+sg29
+g328
+sg30
+VGet on train
+p329
+sbsa(dp330
+g12
+I00
+sg13
+(lp331
+F2186.666666666667
+aF823.3333333333336
+asg15
+(itiddlywiki
+Tiddler
+p332
+(dp333
+g18
+V<<display Stats>>\u000a\u000aA rather unspectacular area.\u000a\u000a[[Take the side street]]
+p334
+sg20
+(lp335
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp336
+(dp337
+tp338
+Rp339
+sg29
+g339
+sg30
+VWalk the rest of the way to town
+p340
+sbsa(dp341
+g12
+I00
+sg13
+(lp342
+F252.83333333333346
+aF1046.8333333333335
+asg15
+(itiddlywiki
+Tiddler
+p343
+(dp344
+g18
+V<<display Stats>>\u000a\u000aYou hobble up over the ivy laced fence. You really shouldn't be doing things like this at your age\u000a\u000a<<set $health = $health - 5>>\u000a\u000aYou are at the entrance to the park.\u000a\u000a[[Take the walking path]]\u000a[[Take the lake route]]\u000a[[Take the road less traveled]]
+p345
+sg20
+(lp346
+Vfence
+p347
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp348
+(dp349
+tp350
+Rp351
+sg29
+g351
+sg30
+VClimb your fence
+p352
+sbsa(dp353
+g12
+I00
+sg13
+(lp354
+F2114.9999999999995
+aF198.33333333333329
+asg15
+(itiddlywiki
+Tiddler
+p355
+(dp356
+g18
+V<<display Stats>>\u000a\u000aThe young clerk smiles knowingly. You've been coming here for a long time. She has your perscription waiting for you on the counter. You reach for your wallet to pay her.\u000a\u000a<<if $cash lt 20>>\u000aYou go to pay for the perscription but find you don't have enough to pay.\u000a\u000aYou look desprately to the young clerk. You tell her you'll pay for them the next day.\u000a\u000a[[Beg the clerk]]\u000a\u000a<<else>>\u000a\u000aYou hand her the cash and take your bag with a smile.\u000a\u000aTime to head back home. It's been a long day, but it was nice to get out for a little while.\u000a\u000a<<endif>>
+p357
+sg20
+(lp358
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp359
+(dp360
+tp361
+Rp362
+sg29
+g362
+sg30
+VBest pay the young lady
+p363
+sbsa(dp364
+g12
+I00
+sg13
+(lp365
+F1814.999999999998
+aF1110.0000000000002
+asg15
+(itiddlywiki
+Tiddler
+p366
+(dp367
+g18
+V<<display Stats>>\u000aYou ran out as fast as you could, or could be expected to. \u000a\u000a<<set $health = $health - 3>>\u000a\u000aThe wasps are still chasing you. You lose 3 health.\u000a\u000aYou see the bus stop ahead, but it'll cost some to take it. You could always walk the rest of the way into town too.\u000a\u000a[[Take the bus]]\u000a[[Walk the rest of the way to town]]
+p368
+sg20
+(lp369
+Vrun
+p370
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp371
+(dp372
+tp373
+Rp374
+sg29
+g374
+sg30
+VRun out of the woods
+p375
+sbsa(dp376
+g12
+I00
+sg13
+(lp377
+F1506.6666666666667
+aF-14.999999999999867
+asg15
+(itiddlywiki
+Tiddler
+p378
+(dp379
+g18
+V<<display Stats>>\u000aYou come off the small, side street to a wider boulevard. \u000a\u000aThe library is on this road. It's a great place to relax.\u000a\u000aThe church is here too. You remember they have their weekly bingo game going on right now. It usually pays out pretty well if you win.\u000a\u000aThe pharmacy isn't much further from here either.\u000a\u000a[[Head to library]]\u000a[[Head to church]]\u000a[[Move along]]
+p380
+sg20
+(lp381
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp382
+(dp383
+tp384
+Rp385
+sg29
+g385
+sg30
+VContinue on
+p386
+sbsa(dp387
+g12
+I00
+sg13
+(lp388
+F1954.9999999999995
+aF353.3333333333336
+asg15
+(itiddlywiki
+Tiddler
+p389
+(dp390
+g18
+V<<display Stats>>\u000aBetter safe than sorry. And better late than absent.\u000a\u000aYou've finally made it to the pharmacy.\u000a\u000a[[Enter pharmacy]]
+p391
+sg20
+(lp392
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp393
+(dp394
+tp395
+Rp396
+sg29
+g396
+sg30
+VTake the longer route
+p397
+sbsa(dp398
+g12
+I00
+sg13
+(lp399
+F277.16666666666691
+aF258.83333333333331
+asg15
+(itiddlywiki
+Tiddler
+p400
+(dp401
+g18
+V<<display Stats>>\u000a\u000a\u000aYou went left.\u000a\u000aLook. A Train station.\u000a\u000a\u000a[[Get on train]]\u000a[[Don't get on train]]
+p402
+sg20
+(lp403
+sg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp404
+(dp405
+tp406
+Rp407
+sg29
+g407
+sg30
+VGo left
+p408
+sbsa(dp409
+g12
+I00
+sg13
+(lp410
+F1813.6666666666658
+aF1293.666666666667
+asg15
+(itiddlywiki
+Tiddler
+p411
+(dp412
+g18
+V<<display Stats>>\u000aYou get to the bus stop just as the bus pulls up.\u000a<<set $cash = $cash - 5>>\u000aYou pay the fare. It costs $5.  \u000a\u000aThe wasps must not have had enough. They don't follow you on the bus.\u000a\u000a[[The bus takes you into town]]
+p413
+sg20
+(lp414
+Vbus
+p415
+asg23
+g24
+((I2013
+I1
+I27
+I1
+I31
+I8
+I6
+I27
+I0
+tp416
+(dp417
+tp418
+Rp419
+sg29
+g419
+sg30
+VTake the bus
+p420
+sbsa(dp421
+g12
+I00
+sg13
+(lp422
+F30.0
+aF491.66666666666657
+asg15
+(itiddlywiki
+Tiddler
+p423
+(dp424
+S'text'
+p425
+V<<silently>>\u000a<<set $health = ($health - 1)>>\u000a<<set $time = ($time - 1)>>\u000a<<endsilently>>\u000aYou have <<print $health>> Health, $<<print $cash>> dollar(s), and <<print $time>> Time remaining.\u000a<<display heartbeat>>
+p426
+sS'tags'
+p427
+(lp428
+VStats
+p429
+asS'created'
+p430
+g24
+((I2013
+I1
+I27
+I11
+I46
+I30
+I6
+I27
+I0
+tp431
+(dp432
+tp433
+Rp434
+sS'modified'
+p435
+g434
+sS'title'
+p436
+VStats
+p437
+sbsa(dp438
+g12
+I00
+sg13
+(lp439
+F4.9999999999999991
+aF249.99999999999997
+asg15
+(itiddlywiki
+Tiddler
+p440
+(dp441
+g425
+V<<silently>>\u000a<<if ((Math.random()*2) gt 1)>>\u000a<<set $coinflip = 2>>\u000a<<else>>\u000a<<set $coinflip = 1>>\u000a<<endif>>\u000a<<endsilently>>
+p442
+sg427
+(lp443
+sg430
+g24
+((I2013
+I1
+I27
+I12
+I35
+I25
+I6
+I27
+I0
+tp444
+(dp445
+tp446
+Rp447
+sg435
+g447
+sg436
+VCoinflip
+p448
+sbsa(dp449
+g12
+I00
+sg13
+(lp450
+F624.99999999999977
+aF536.66666666666663
+asg15
+(itiddlywiki
+Tiddler
+p451
+(dp452
+S'text'
+p453
+V<<if $luck gt .2>>\u000a<<display Stats>>\u000a\u000aThe dog stares at you blankly with a gigantic doggy smile plastered on his face. You should get a dog.\u000a\u000a<<else>>\u000a<<silently>>\u000a<<set $health = ($health - 10)>>\u000a<<endsilently>> \u000a<<display Stats>>\u000a\u000aYou walk past the dog. Its barks are low and powerful. You can feel them in your chest. It drools a little as it barks. Why is this dog so aggressive? Is it a fighting dog? Should you call someone?\u000a\u000aYour thoughts come to an apbrupt halt as yet another overpowering bark surprised you. Your heart flutters, and it puts a little spring in your step.\u000a\u000aHopefully no one noticed you power-walk away\u000a\u000a<<endif>>
+p454
+sS'tags'
+p455
+(lp456
+sS'created'
+p457
+g24
+((I2013
+I1
+I27
+I13
+I50
+I29
+I6
+I27
+I0
+tp458
+(dp459
+tp460
+Rp461
+sS'modified'
+p462
+g461
+sS'title'
+p463
+VWalk past the dog
+p464
+sbsa(dp465
+g12
+I00
+sg13
+(lp466
+F646.66666666666663
+aF274.99999999999983
+asg15
+(itiddlywiki
+Tiddler
+p467
+(dp468
+g453
+V<<display Stats>>\u000a\u000aYou are hit by a car
+p469
+sg455
+(lp470
+sg457
+g24
+((I2013
+I1
+I27
+I13
+I50
+I42
+I6
+I27
+I0
+tp471
+(dp472
+tp473
+Rp474
+sg462
+g474
+sg463
+VWalk across the street hurridly
+p475
+sbsa(dp476
+g12
+I00
+sg13
+(lp477
+F879.99999999999795
+aF1101.6666666666645
+asg15
+(itiddlywiki
+Tiddler
+p478
+(dp479
+S'text'
+p480
+V<<display Stats>>\u000a\u000aThe rest of the walk on the main path is long and pleasant. Lose 4 more time than usual.\u000a\u000a<<set $time = $time - 4>>\u000a\u000aYou see the bus stop ahead, but it'll cost some to take it. You could always walk the rest of the way into town too.\u000a\u000a[[Take the bus]]\u000a[[Walk the rest of the way to town]]
+p481
+sS'tags'
+p482
+(lp483
+sS'created'
+p484
+g24
+((I2013
+I1
+I27
+I16
+I36
+I47
+I6
+I27
+I0
+tp485
+(dp486
+tp487
+Rp488
+sS'modified'
+p489
+g488
+sS'title'
+p490
+VContinue to the end of the park
+p491
+sbsa(dp492
+g12
+I01
+sg13
+(lp493
+F9.999999999999984
+aF851.66666666666777
+asg15
+(itiddlywiki
+Tiddler
+p494
+(dp495
+g480
+V<<if ($health lt 10) and ($health gte 1)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/10Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a<<if ($health lt 20) and ($health gte 10)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/20Heartbeats.mp3" type="audio/mpeg">\u000a</audio> </html>\u000a<<endif>>\u000a<<if ($health lt 30) and ($health gte 20)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/30Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a<<if ($health lt 40) and ($health gte 30)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/40Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>>\u000a<<if ($health lt 50) and ($health gte 40)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/50Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a<<if ($health lt 60) and ($health gte 50)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/60Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a<<if ($health lt 70) and ($health gte 60)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/70Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a<<if ($health lt 80) and ($health gte 70)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/80Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a<<if ($health lt 90) and ($health gte 80)>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/90Heartbeats.mp3" type="audio/mpeg">\u000a</audio> </html>\u000a<<endif>> \u000a<<if $health gte 90>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/100Heartbeats.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> \u000a<<if $health lt 1>>\u000a<html>\u000a<audio autoplay = "autoplay" loop >\u000aonended="this.play();" \u000a<source src="heartbeats/flatline.mp3" type="audio/mpeg">\u000a</audio> \u000a</html>\u000a<<endif>> 
+p496
+sg482
+(lp497
+sg484
+g24
+((I2013
+I1
+I27
+I16
+I47
+I21
+I6
+I27
+I0
+tp498
+(dp499
+tp500
+Rp501
+sg489
+g501
+sg490
+Vheartbeat
+p502
+sbsa(dp503
+g12
+I00
+sg13
+(lp504
+F950.0
+aF169.99999999999997
+asg15
+(itiddlywiki
+Tiddler
+p505
+(dp506
+g480
+VWednesday
+p507
+sg482
+(lp508
+sg484
+g24
+((I2013
+I1
+I27
+I16
+I59
+I49
+I6
+I27
+I0
+tp509
+(dp510
+tp511
+Rp512
+sg489
+g512
+sg490
+VStoryTitle
+p513
+sbsa(dp514
+g12
+I00
+sg13
+(lp515
+F156.66666666666666
+aF141.66666666666666
+asg15
+(itiddlywiki
+Tiddler
+p516
+(dp517
+g480
+S''
+p518
+sg482
+(lp519
+sg484
+g24
+((I2013
+I1
+I27
+I18
+I14
+I3
+I6
+I27
+I0
+tp520
+(dp521
+tp522
+Rp523
+sg489
+g523
+sg490
+S'Untitled Passage 1'
+p524
+sbsasS'scale'
+p525
+F0.60000000000000009
+ss.
